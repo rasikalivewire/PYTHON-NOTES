@@ -1,0 +1,106 @@
+#variable=values
+'''age1=10
+print(age1)
+
+x='priya'
+print(x)
+AGE=20
+
+Age_person=30
+print(Age_person)
+
+help('keywords')'''
+
+
+#data types
+'''a=10
+print(a)
+print(type(a))
+a=10.25
+print(a)
+print(type(a))
+a='raghav'
+print(a)
+print(type(a))
+a=4+5j
+print(a)
+print(type(a))
+a=True
+print(a)
+print(type(a))'''
+#input
+"""a=int(input('enter value1  '))
+b=int(input('enter value2  '))
+
+print(a+b)"""
+#arithmetic operators
+'''a=779
+b=77
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(7**2)'''
+
+#relational operator
+'''a=5
+b=7
+print(a==b)
+print(a!=b)
+print(b>a)
+print(a>b)
+print(a<b)
+print(a>=b)
+print(a<=b)'''
+#logical operator
+a=3
+b=1
+c=6
+print(a<c and b<c)
+print(a<c and b>c)
+print(a<c or b<c)
+print(a<c or b>c)
+print(a>c or b>c)
+print(not(c>a))
+#bitwise operator
+a=5
+b=3
+print(a&b)
+print(a|b)
+print(a^b)
+print(~a)
+#assignment operator
+x=10
+print(x)
+x+=20
+print(x)
+x-=5
+print(x)
+x*=4
+print(x)
+x/=5
+print(x)
+x//=3
+print(x)
+x%=4
+print(x)
+
+#membership operators
+football=['cb','cf','rwf','lwf']
+print('rwf' in football)
+print('lwf' not in football)
+print('gk' not in football)
+
+
+#identity operators
+x=[1,2,3]
+y=x
+z=[1,2,3]
+print(x==z)
+print(x is z)
+print(x is not z)
+print(x  is y)
+
+
