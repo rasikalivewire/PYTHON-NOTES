@@ -1,0 +1,70 @@
+#positional arguments
+'''def fifa(name,score):
+    print("the player name is",name)
+    print("the score is",score)
+fifa("messi",18
+
+#default arguments
+def fifa(jersey="ten"):
+    print("messi's jersey no is:",jersey)
+fifa()
+fifa("one")'''
+'''def fifa(name,score,team="argentina"):
+    print("the player name is",name)
+    print("the score is",score)
+    print("messi team represents",team)
+fifa("messi",18,"india")'''
+#keyword arguments
+'''def fifa(name,score,team):
+    print("the player name is",name)
+    print("the score is",score)
+    print("messi team represents",team)
+fifa(team="argentina",name="messi",score=18)'''
+#*args-positional
+'''def score(*score):
+    print(score)
+score(18,17,16,15)
+#**kwargs
+def fifa(**details):
+    print(details)
+fifa(team="argentina",name="messi",score=18,speciality="assist",jersey=10)'''
+
+#without parameters,without return
+'''def add():
+    a=5
+    b=6
+    print(a+b)
+add()'''
+
+#without parameters,with return
+'''def add():
+    a=5
+    b=6
+    return a+b
+k=add()
+print(k)'''
+
+#with parameters,without return
+'''def add(a,b):
+    print(a+b)
+add(6,6)'''
+
+#with parameters,with return
+'''def add(a,b):
+
+    return a+b
+k=add(7,8)
+print(k)'''
+#lambda arg:expression
+'''c=lambda a:a*a*a
+print(c(5))'''
+
+#map()
+num=[1,2,3,4,5]
+f= list(map(lambda x:x*5,num))
+print(f)
+
+#filter()
+num=[1,2,3,4,5]
+o= list(filter(lambda x:x%2==1,num))
+print(o)
