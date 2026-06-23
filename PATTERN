@@ -1,0 +1,130 @@
+
+
+a="achuyudaram"
+print(a)
+for i in a:
+     print(i,end=" ")'''
+#for i in range(start,stop,step)
+#for increment
+'''for i in range(1,15,2):
+     print(i)
+for i in range(1,15):
+     print(i)
+for i in range(15):
+     print(i)
+#for decrement
+for i in range(15,1,-3):
+     print(i)'''
+#star pattern
+#square pattern
+'''n=int(input("enter a number"))
+for i in range(n):
+    for j in range(n):
+        print("*",end=" ")
+    print()'''
+
+
+#triangle
+#increasing triangle
+'''n=int(input("enter a number"))
+for i in range(n):
+    for j in range(i+1):
+        print("*",end=" ")
+    print()
+
+
+#decreasing triangle
+n=int(input("enter a number"))
+for i in range(n):
+    for j in range(i,n):
+        print("*",end=" ")
+    print()
+
+#2nd part
+n=int(input("enter a number"))
+for i in range(n):
+    for j in range(i+1):
+        print(" ",end=" ")
+   
+    for k in range(i,n):
+       print("*",end=" ")
+    print()
+
+#number pattern
+n=int(input("enter a number"))
+for i in range(n):
+    for j in range(i+1):
+        print(i,end=" ")
+    print()
+
+n=int(input("enter a number"))
+for i in range(n):
+    for j in range(i+1):
+        print(j,end=" ")
+    print()
+
+n=int(input("enter a number"))
+for i in range(n):
+    for j in range(i,n):
+        print(i,end=" ")
+    print()
+
+n=int(input("enter a number"))
+for i in range(n):
+    for j in range(i,n):
+        print(j,end=" ")
+    print()
+
+n=int(input("enter a number"))
+p=0
+for i in range(n):
+    for j in range(i+1):
+        print(p,end=" ")
+        p+=1
+    print()
+#alphabet pattern
+n=int(input("enter a number"))
+p=65
+for i in range(n):
+    for j in range(i+1):
+        print(chr(p),end=" ")
+        p+=1
+    print()
+
+#while loop
+for i in range(5,26,5):
+    print(i)
+#increment
+i=5
+while i<=25:
+    print(i)
+    i+=5'''
+
+#decrement
+i=50
+while i>=25:
+    print(i)
+    i-=5
+
+#infinity
+n=input("enter name")
+while n=="nisha":
+    print("hi nisha")
+#hollow pattern
+'''n=5
+for i in range(n):
+     for j in range(i+1):
+         if(i==n-1 or j==0 or j==i):
+             print("*",end=" ")
+         else:
+             print(" ",end=" ")
+     print()
+
+n=5
+for i in range(n):
+     for j in range(i,n):
+         if(i==0 or j==i or j==n-1):
+             print("*",end=" ")
+         else:
+             print(" ",end=" ")
+     print()
