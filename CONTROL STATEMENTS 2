@@ -1,0 +1,115 @@
+#control statements
+#selection control
+#if
+'''a=5
+if a>2:
+    print("a is greater than 2")'''
+
+#if-else
+'''a=input("enter your name:")
+if a=="nisha"or a=="NISHA":
+    print("hi nisha")
+else:
+    print("user not found")'''
+
+
+#if-elif-else
+#1
+'''marks =int(input("enter your marks:"))
+if marks >= 90:
+    print("Grade A")
+if marks >= 70:
+    print("Grade B")
+if marks >=35:
+    print("Grade C")
+else:
+    print("fail")
+#2
+marks =int(input("enter your marks:"))
+if marks >= 90:
+    print("Grade A")
+elif marks >= 70:
+    print("Grade B")
+elif marks >=35:
+    print("Grade C")
+else:
+    print("fail")
+
+#nested if -elif-else
+a=input("do you like ben/gwen?")
+if a=="ben":
+    b=input("choose your alien buddy?")
+    if b=="echo":
+        print("echo mode activated")
+    elif b=="fourarms":
+        print("strength")
+    elif b=="heatblast":
+        print("fire power activated")
+    elif b=="upgrade":
+        print("devices are under controlled by upgrade")
+    else:
+        print("alien not found")
+
+elif a=="gwen":
+    print("magic power")
+else:
+    print("bye bye")'''
+
+#loop
+# for loop
+'''a="aravind"
+print(a)
+for i in a:
+    print(i)
+for i in a:
+    print(i,end=" ")'''
+#for i in range(start,stop,step)
+'''for i in range(1,11,2):
+    print(i,end=" ")
+for i in range(1,11):
+    print(i,end=" ")
+for i in range(11):
+    print(i,end=" ")
+
+for i in range(50,10,-5):
+    print(i,end=" ")'''
+#nested for
+'''for i in range(1, 4):
+    for j in range(1, 3):
+print(i, j)'''
+#if elif else
+'''marks=int(input("enter your marks"))
+if marks >= 90:
+    print("Grade A")
+if marks >= 70:
+    print("Grade B")
+else:
+    print("Grade C")
+marks=int(input("enter your marks"))
+if marks >= 90:
+    print("Grade A")
+elif marks >= 70:
+    print("Grade B")
+else:
+    print("Grade C")'''
+
+#nested-if-else
+'''print("teen titans")
+t=input("choose your titan buddy")
+if t=="robin":
+    print("leader")
+    r=input("choose robin tool")
+    if r=="leadership":
+        print("good leadership")
+    elif r=="weapons":
+        print("cool")
+    else:
+        print("not in list")
+elif t=="star fire":
+    print("laser power buddy")
+elif t=="cyborg":
+    print("roboat buddy")
+elif t=="beast boy":
+    print("transformation")
+else:
+    print("enjoy with raven")'''
