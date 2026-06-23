@@ -1,0 +1,50 @@
+#if
+'''a=5
+if a>7:
+    print('a is greater than 7')
+else:
+    print('a is lesser than 7')'''
+
+#if-else
+'''a=input('red card received or not')
+if a=='yes'or a=='YES':
+    print('the opposite  team chance to get a free kick')
+else:
+    print('match continue')'''
+
+#if-elif-else
+'''marks =int(input('enter your marks'))
+if marks >= 90 and marks<100:
+    print("Grade A")
+elif marks >=60 and marks<100:
+    print("Grade B")
+elif marks>=35 and marks<100:
+    print("Grade C")
+else:
+    print("fail")'''
+
+#nested if
+'''n=int(input('enter a year'))
+if n%4==0:
+    if n%100==0:
+          if n%400==0:
+              print('leap year logic:400')
+          else:
+              print('not a leap year logic:400')
+else:
+    print('not leap year')'''
+#nested if else elif
+'''print('the boys')
+b=input('are you intersted in superheros')
+if b=='yes':
+    c=input('who will you prefer :home lander,star light,a train')
+    if c=='home lander':
+        print('laser eyes activated')
+    elif c=='star light':
+        print('light power activated')
+    elif c=='a train':
+        print('speed power activated')
+    else:
+        print('no power')
+else:
+    print('bye bye')'''
