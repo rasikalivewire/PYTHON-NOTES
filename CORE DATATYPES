@@ -60,3 +60,13 @@ print(d["course"])
 print(d.keys())
 print(d.values())
 print(d.items())
+'''a=[1,2,3,4,5,7]
+odd=[i for i in a if i%2!=0]
+odd1=["odd" if x%2!=0 else"even"for x in a]
+print(odd)
+print(odd1)'''
+# for i in a:
+#     if i%2==1:
+#         print("odd")
+#     else:
+#         print("invalid")
